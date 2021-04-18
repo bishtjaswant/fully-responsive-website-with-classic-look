@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    box-shadow: 0 0 6px 5px #efecec;
+}
+.navbar-color{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.navbar-brand   {
+    color: #101010!important;
+    font-size: 2rem;
+    /* font-weight: 700; */
+    margin-left: 6rem;
+}
+
+.nav-item .nav-link{
+    color: #5e615e;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header{
+    background: linear-gradient(to right , rgba(0,0,0,0.9),rgba(0,0,0,0.3) ),  url( https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1260 );
+    background-size: cover;
+     height: 90vh;
+    width: 100%; 
+    color: #ffffff!important;
+}
+ 
+
+.header-text-anime {
+
+    position:relative;
+    /* font-size:80px; */
+    font-weight:600;
+    color:#eee;
+    width:100%;
+    height:20px;
+    text-align:center;
+    /* line-height:200px; */
+    overflow:hidden;
+  }
+  .header-text-anime  span{
+
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    text-transform:uppercase;
+    letter-spacing:5px;
+  }
+
+
+
+
+
+
+.h-100{
+    width: 100%;
+    height: 100%;
+}
+
+.message {
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.download {
+    background: #fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow:
+  0 10.5px 2.7px rgba(0, 0, 0, 0.016),
+  0 26.5px 6.9px rgba(0, 0, 0, 0.022),
+  0 54px 14.2px rgba(0, 0, 0, 0.028),
+  0 111.3px 29.2px rgba(0, 0, 0, 0.034),
+  0 305px 80px rgba(0, 0, 0, 0.05)
+;
+}
+
+.services .mycard {
+    background-color: #ebe9e9!important;
+    transition: all 0.6s linear;
+    cursor: pointer;
+
+    
+}
+.services .mycard p{
+    text-align: justify;
+    padding: 0 1rem;
+}
+.mycard:hover{
+    background-color: #141414!important;
+    color: #f5f549 ;
+}
+
+.touch {
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 1rem 0;
+margin-top: 2rem;
+
+border-radius: 46% 54% 40% 60% / 58% 30% 70% 42% ;
+box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+
+
+
+
+
+
+.myfooter {
+    
+}
